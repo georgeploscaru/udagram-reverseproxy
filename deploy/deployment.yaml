@@ -19,5 +19,5 @@ spec:
         image: gepl/udagram-reverseproxy
         imagePullPolicy: "Always"
         ports:
-        - containerPort: 80
+        - containerPort: 8080
       restartPolicy: "Always"
